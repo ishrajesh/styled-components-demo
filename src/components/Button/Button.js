@@ -1,14 +1,5 @@
-import styled from 'styled-components'
+import { StyledButton, FancyButton } from "./Button.style";
 
-export const StyledButton = styled.button`
-  border: 2px solid #4caf60;
-  background-color: ${(props) =>  props.variant === 'outline'? '#FFF' :'#4caf50' } ;
-  color: ${(props) =>  props.variant === "outline"?'#4caf50': '#FFF'  } ;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.5s all ease-out;
-`
+export default StyledButton
+export {FancyButton}
+
